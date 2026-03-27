@@ -1,4 +1,4 @@
-# 🤖 Predictive Modelling Framework
+#  Predictive Modelling Framework
 
 > **A reusable, end-to-end ML pipeline for business forecasting — built to reduce analysis time from days to hours.**
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Most businesses that want to use machine learning for forecasting face the same bottleneck: data scientists spend 70%+ of their time on repetitive setup tasks — data cleaning, encoding, model selection, evaluation, reporting — before any real insight is produced.
 
@@ -18,7 +18,7 @@ Most businesses that want to use machine learning for forecasting face the same 
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 1. Build a **fully reusable ML pipeline** that handles the entire modelling lifecycle
 2. Support both **regression** (price, revenue, demand) and **classification** (churn, fraud, approval) tasks
@@ -28,7 +28,7 @@ Most businesses that want to use machine learning for forecasting face the same 
 
 ---
 
-## 🧩 Framework Architecture
+##  Framework Architecture
 
 ```
 Raw Business Data
@@ -71,7 +71,7 @@ Raw Business Data
 
 ---
 
-## 📦 Use Cases Demonstrated
+##  Use Cases Demonstrated
 
 | # | Business Problem | Task Type | Best Model | Performance |
 |---|-----------------|-----------|------------|-------------|
@@ -81,7 +81,7 @@ Raw Business Data
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### Module 1 — Data Ingestion
 - Accepts CSV, Excel, and SQL input
@@ -124,7 +124,7 @@ Trains and benchmarks 5 models simultaneously:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Category | Tools |
 |----------|-------|
@@ -139,7 +139,7 @@ Trains and benchmarks 5 models simultaneously:
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 1. **XGBoost wins most regression tasks** when features include mixed types and non-linear relationships — but LightGBM outperforms on large datasets (>100k rows) due to speed.
 
@@ -151,20 +151,20 @@ Trains and benchmarks 5 models simultaneously:
 
 ---
 
-## 📊 Visualisations Included
+##  Visualisations Included
 
-- 🏆 **Model Comparison Bar Chart** — All models benchmarked side-by-side
-- 🔍 **SHAP Summary Plot** — Global feature importance with direction
-- 🔍 **SHAP Waterfall Chart** — Single prediction explained
-- 📉 **Residual Plot** — Error distribution analysis
-- 📊 **Confusion Matrix** — For classification use cases
-- 📈 **ROC Curve** — AUC comparison across models
+-  **Model Comparison Bar Chart** — All models benchmarked side-by-side
+-  **SHAP Summary Plot** — Global feature importance with direction
+-  **SHAP Waterfall Chart** — Single prediction explained
+-  **Residual Plot** — Error distribution analysis
+-  **Confusion Matrix** — For classification use cases
+-  **ROC Curve** — AUC comparison across models
 
 > 📁 All visualisations in `/visuals/`; interactive version via Streamlit demo
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 | Metric | Before Framework | After Framework |
 |--------|-----------------|-----------------|
@@ -173,7 +173,7 @@ Trains and benchmarks 5 models simultaneously:
 | Stakeholder report | Manual (Word/PPT) | Auto-generated |
 | Reproducibility | Low | High (logged runs) |
 
-> 🏢 This type of framework is standard at firms like McKinsey, JPMorgan, and Grab — where reusable ML pipelines are a core productivity asset.
+>  This type of framework is standard at firms like McKinsey, JPMorgan, and Grab — where reusable ML pipelines are a core productivity asset.
 
 ---
 
@@ -205,7 +205,7 @@ predictive-modelling-framework/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 git clone https://github.com/yourusername/predictive-modelling-framework.git
@@ -221,7 +221,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] **Time-Series Module** — Add Prophet + LSTM for sequential forecasting tasks
 - [ ] **AutoML Integration** — Benchmark against H2O AutoML
